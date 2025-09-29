@@ -7,3 +7,6 @@ A chatbot focusing on mental health.
    ```bash
    git clone https://github.com/username/repo.git
    cd repo
+3. Install Library:
+   ```bash
+   pip install google-genai python-dotenv
