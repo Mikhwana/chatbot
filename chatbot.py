@@ -9,7 +9,7 @@ from google.genai import types
 
 def generate():
     client = genai.Client(
-        api_key=os.environ.get("GEMINI_API_KEY") or "AIzaSyD1QRZXK9M5ltNyMf0H5vHBSCo-wi6BXIY"
+        api_key=os.environ.get("GEMINI_API_KEY") or "INSERT_API_HERE"
     )
 
     model = "gemini-2.5-pro"
@@ -47,3 +47,4 @@ def generate():
 
 if __name__ == "__main__":
     generate()
+
